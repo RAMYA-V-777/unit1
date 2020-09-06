@@ -20,6 +20,7 @@ public class emplo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+            //Using Array Of Objects
           ArrayList<emp> list=new ArrayList<>();
         emp obj[];
         obj=new emp[20];
@@ -36,7 +37,7 @@ public class emplo {
           Collections.sort(list,new salarysort());
            System.out.println("Salary sorted in ascending order");
          System.out.println(list);
-         
+         //Manual method
       /*  emp e1=new emp("Divya",90000);
         emp e2=new emp("Kavya",80000);
         emp e3=new emp("Leena",70000);
@@ -78,7 +79,7 @@ public class emplo {
         list.add(e18);
         list.add(e19);
          list.add(e20);*/
-        //Using Array Of Objects
+        
        
         
     }
